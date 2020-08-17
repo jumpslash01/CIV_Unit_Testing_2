@@ -21,7 +21,7 @@ namespace MiscLib
             throw new NotImplementedException();
         }
 
-        public string StringReplace(string word, char replacement) {
+        public string StringReplace(string word, char replaceChar, char replacement) {
             throw new NotImplementedException();
         }
 
