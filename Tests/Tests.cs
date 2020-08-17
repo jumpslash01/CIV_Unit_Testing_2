@@ -18,10 +18,10 @@ namespace Tests {
         [Fact]
         public void IsFactorialNum_test () {
             GroupOneFunctions g1 = new GroupOneFunctions ();
-            Assert.Equal (true, g1.IsFactiorialNum (120));
-            Assert.Equal (true, g1.IsFactiorialNum (1));
-            Assert.Equal (false, g1.IsFactiorialNum (40));
-            Assert.Equal (false, g1.IsFactiorialNum (60));
+            Assert.True ( g1.IsFactiorialNum (120));
+            Assert.True ( g1.IsFactiorialNum (1));
+            Assert.False (g1.IsFactiorialNum (40));
+            Assert.False ( g1.IsFactiorialNum (60));
         }
 
         [Fact]
